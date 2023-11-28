@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+div {
+    margin: 100px auto;
+    text-align: center;
+    border-top: 1px solid #d5d5d5;
+}
+
+img {
+    width: 190px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+    line-height: 28px;
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    background-color: rgba(0, 128, 0, 0.658);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+span {
+    font-weight: bold;
+}
