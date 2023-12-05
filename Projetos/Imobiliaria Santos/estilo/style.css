@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+.secao {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.secao-topo {
+    background-color: #B0DDFC;
+    text-align: center;
+}
+
+.secao-topo img {
+    width: 190px;
+}
+
+.secao-topo p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.secao-topo p a {
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 980px;
+    margin: 10px auto;
+    text-align: justify;
+}
+.secao-banner {
+    margin-top: 50px;
+    padding-bottom: 0;
+}
