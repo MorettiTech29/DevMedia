@@ -35,6 +35,17 @@ body {
     border-bottom: 2px solid #1d1d1d;
 }
 
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #1c81c0;
+    font-weight: normal;
+    margin-top: 0;
+}
+
 p {
     font-size: 18px;
     line-height: 28px;
@@ -44,5 +55,67 @@ p {
 }
 .secao-banner {
     margin-top: 50px;
-    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.secao-sobre img{
+    width: 450px;
+}
+
+.secao-destaque {
+    background-color: #1c81c0;
+    color: #ffffff;
+}
+
+.secao-destaque p {
+    width: 700px;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.texto-azul {
+    color: #1c81c0;
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+.secao-destaque ul {
+    width: 135px;
+    margin: 40px auto;
+}
+
+.secao-destaque li {
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.secao-corretores img {
+    width: 450px;
+}
+
+.secao-corretores {
+    font-size: 22px;
+    line-height: 42px;
+}
+
+.secao-corretores h3 {
+    margin-top: 0;
+}
+
+.subtitulo-destaque {
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 42px;
+}
+
+.paragrafo-contato {
+    background-color: #1d1d1d;
+}
+
+span {
+    font-weight: bold;
 }
