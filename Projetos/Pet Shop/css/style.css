@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.secao-topo {
+    width: 100vw;
+    height: 100vh;
+    padding: 120px 80px 120px 80px;
+    background-image: url('../img/banner-topo.jpg');
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.logo {
+    max-width: 250px;
+    color: #3c184e;
+}
+
+#titulo-logo {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+#img-logo {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#slogam-logo {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.banner {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+
+.banner p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner img {
+    width: 20px;
+}
+
