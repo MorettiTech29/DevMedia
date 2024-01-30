@@ -73,3 +73,126 @@
     width: 20px;
 }
 
+.secao {
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+#servicos h2 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.lista {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+}
+
+.lista li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.lista span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.imagens {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagens img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.faixa {
+    background-color: #3c184e;
+}
+
+.faixa p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.faixa span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.faixa .redes-sociais {
+    text-align: center;
+}
+
+.faixa a {
+    margin: 0 20px;
+}
+
+.faixa img {
+    height: 50px;
+    width: 50px;
+}
+
+#marcas h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#marcas .conteiner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+#localizacao h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#localizacao p {
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.mapa iframe {
+    width: 800px;
+    height: 450px;
+}
+
+.secao-rodape {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+
+.secao-rodape p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.secao-rodape a {
+    text-decoration: none;
+    color: #fff;
+}
