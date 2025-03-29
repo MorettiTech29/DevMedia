@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #fff;
+    --cor2: #f1f3f7;
+    --cor3: #f6f6f6;
+    --cor4: #a8a4a4;
+    --cor5: #233032;
+    --cor7: #2f86d6;
+    --cor8: rgba(47, 134, 214, 1);
+
+    --font: preconnect;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    font-family: var(--font);
+}
+
+header {
+    width: 100%;
+}
