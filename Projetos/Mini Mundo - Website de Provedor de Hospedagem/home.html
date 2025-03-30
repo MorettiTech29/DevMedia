@@ -11,52 +11,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="topo">
-        <div class="logo-topo">
-            <div class="icone">
-                <img src="imagens/logo-icone.png" alt="">
+    <header>
+        <div class="topo">
+            <div class="logo-topo">
+                    <img src="imagens/logo-icone.png" alt="">
+                <div class="texto-logo">
+                    <h1>AlfaTech</h1>
+                    <p>Soluções em hospedagem</p>
+                </div>
             </div>
-            <h1>AlfaTech</h1>
-            <p>Soluções em hospedagem</p>
+            <nav>
+                <a href="index.html#informacoes">INFORMAÇÕES</a>
+                <a href="home.html#planos">PLANOS</a>
+                <a href="tabela-de-precos.html">PREÇOS</a>
+                <a href="index.html#contato">CONTATO</a>
+            </nav>
         </div>
-        <nav>
-            <a href="index.html#informacoes">INFORMAÇÕES</a>
-            <a href="home.html#planos">PLANOS</a>
-            <a href="tabela-de-precos.html">PREÇOS</a>
-            <a href="index.html#contato">CONTATO</a>
-        </nav>
     </header>
     <main>
         <!--BANNER-->
-        <div class="banner">
-            <p>Simples - Fácil de usar - 10x mais rápido</p>
-            <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
-            <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+        <div class="conteiner-banner">
+            <div class="secao-banner">
+                <div class="texto-banner">
+                    <p>Simples - Fácil de usar - 10x mais rápido</p>
+                    <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
+                    <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+                </div>
+                <img src="imagens/imagem-banner.png" alt="">
+            </div>
         </div>
 
         <!--ANÚNCIO-->
-        <div class="anuncio" id="anuncio-1">
-            <h3>Hospede o seu site por apenas R$29 por mês.</h3>
-            <p>Também temos planos gratuitos. Adquira já o seu.</p>
-            <a href="tabela-de-precos.html">TABELA DE PREÇOS</a>
+        <div class="conteiner-anuncio">
+            <div class="anuncio">
+                <div class="texto-anuncio">
+                    <h3>Hospede o seu site por apenas R$29 por mês.</h3>
+                    <p>Também temos planos gratuitos. Adquira já o seu.</p>
+                </div>
+                <a href="tabela-de-precos.html"><img src="imagens/icone-foguete.png" alt="Ícone de foguete">TABELA DE PREÇOS</a>
+            </div>
         </div>
 
         <!--CONTEINER INFORMAÇÕES-->
-        <div class="informacoes">
-            <h4>Existem diversos serviços de hospedagem de sites. Porque você deve nos escolher?</h4>
-            <div class="conteiner-cards">
-                <div class="card">
-                    <h5>Fácil de configurar</h5>
-                    <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...
-                    </p>
-                </div>
-                <div class="card">
-                    <h5>Servidores 100% Online</h5>
-                    <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
-                </div>
-                <div class="card">
-                    <h5>Suporte 24/7</h5>
-                    <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
+        <div class="conteiner-informacoes">
+            <div class="informacoes">
+                <h4>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span></h4>
+                <div class="conteiner-cards">
+                    <div class="card">
+                        <img src="imagens/icone-engrenagens.png" alt="">
+                        <h5>Fácil de configurar</h5>
+                        <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/cloud-icone.png" alt="">
+                        <h5>Servidores 100% Online</h5>
+                        <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/icone-suporte.png" alt="">
+                        <h5>Suporte 24/7</h5>
+                        <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,9 +138,13 @@
         </div>
 
         <!--ANUNCIO-->
-        <div class="anuncio" id="anuncio-2">
-            <h3>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h3>
-            <a href="tabela-de-precos.html">TABELA DE PREÇOS</a>
+        <div class="conteiner-anuncio" id="conteiner-anuncio-2">
+            <div class="anuncio" id="anuncio-2">
+                <div class="texto-anuncio">
+                    <h3>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h3>
+                </div>
+                <a href="tabela-de-precos.html"><img src="imagens/icone-foguete.png" alt="">TABELA DE PREÇOS</a>
+            </div>
         </div>
     </main>
 
