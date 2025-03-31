@@ -43,19 +43,23 @@ header .topo {
 }
 
 /*LOGO*/
-.logo-topo {
+.logo {
     display: flex;
 }
 
-.logo-topo img{
+.logo img{
     width: 100px;
 }
 
-.logo-topo .texto-logo h1{
+.logo .texto-logo {
+    padding-left: 10px;
+}
+
+.logo .texto-logo h1{
     font-size: 32px;
 }
 
-.logo-topo .texto-logo p {
+.logo .texto-logo p {
     font-size: 16px;
     color: var(--cor7);
 }
@@ -177,9 +181,10 @@ nav a{
     font-size: 32px;
     color: var(--cor8);
     padding-bottom: 60px;
+    text-align: center;
 }
 
-.informacoes h4 span {
+.informacoes h4 span, .planos h4 span {
     color: var(--cor7);
 }
 
@@ -192,6 +197,8 @@ nav a{
 
 .card {
     width: 33%;
+    text-align: center;
+    padding: 1px;
 }
 
 .card img {
@@ -201,9 +208,116 @@ nav a{
 .card h5 {
     font-size: 18px;
     color: var(--cor8);
+    margin: 15px 0;
 }
 
 .card p {
     font-size: 16px;
     color: var(--cor8);
+}
+/*FIM CARDS*/
+/*INÍCIO SEÇÃO PLANOS*/
+.conteiner-planos {
+    width: 100%;
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: center;
+}
+
+.planos {
+    width: 1024px;
+    padding: 100px 0px;
+}
+
+.planos h4 {
+    font-size: 32px;
+    color: var(--cor8);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*Tabela*/
+.planos table {
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 70px var(--cor7);
+    border-radius: 5px;
+    padding: 20px 5px;
+}
+
+table tr img {
+    width: 50%;
+}
+
+table tr td {
+    padding: 10px 0;
+}
+
+table tr td p {
+    font-size: small;
+    color: var(--cor4);
+    max-width: 50%;
+    margin: auto;
+}
+
+th {
+    font-size: 18px;
+    color: var(--cor8);
+}
+
+.linha-impar {
+    font-size: 16px;
+    background-color: var(--cor3);
+}
+
+.linha-par {
+    background-color: var(--cor2);
+    font-size: 16px;
+}
+/*FIM TABELA*/
+/*FIM SEÇÃO PLANOS*/
+/*INÍCIO RODAPÉ*/
+footer {
+    width: 100%;
+    margin: auto;
+}
+
+.conteiner-rodape {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-rodape .rodape {
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    max-width: 1024px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.contato p {
+    font-size: 16px;
+    color: var(--cor8);
+    margin: 0px auto 20px auto;
+}
+
+.contato p a {
+    text-decoration: none;
+    color: var(--cor8);
+}
+
+#credito-footer {
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#credito-footer span {
+    color: var(--cor7);
 }
