@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+:root {
+    --cor1: #fff;
+    --cor2: #f1f3f7;
+    --cor3: #f6f6f6;
+    --cor4: #a8a4a4;
+    --cor5: #233032;
+    --cor7: #2f86d6;
+    --cor8: #000000;
+    --cor9: rgba(47, 134, 214, 1);
+
+    --font: 'Poppins', sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+}
+
+
+/*CABEÇALHO*/
+
+header {
+    width: 100%;
+    background-color: var(--cor7);
+    padding: 35px 0px;
+}
+
+header .topo {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+/*LOGO*/
+.logo {
+    display: flex;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.logo .texto-logo {
+    padding-left: 10px;
+}
+
+.logo .texto-logo h1{
+    font-size: 32px;
+}
+
+.logo .texto-logo p {
+    font-size: 16px;
+    color: var(--cor1);
+}
+/*FIM LOGO*/
+
+/*NAVEGAÇÃO*/
+nav a{
+    font-size: 18px;
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+main {
+    width: 100%;
+    background-color: var(--cor2);
+}
+
+/*INÍCIO TABELA*/
+
+.conteiner-tabela {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 1024px;
+    text-align: center;
+}
+
+table td {
+    padding: 10px 10px;
+}
+
+.titulo-tabela{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor4);
+}
+
+.subtitulo-tabela {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.categorias-tabela {
+    font-weight: 500;
+    text-align: left;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+/*FIM TABELA*/
+/*INÍCIO RODAPÉ*/
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: var(--cor7);
+}
+
+.conteiner-rodape {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    max-width: 1024px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.contato p {
+    font-size: 16px;
+    color: var(--cor1);
+    margin: 20px auto;
+}
+
+.contato p a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+#credito-footer {
+    width: 100%;
+    background-color: var(--cor1);
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#credito-footer span {
+    color: var(--cor7);
+}
