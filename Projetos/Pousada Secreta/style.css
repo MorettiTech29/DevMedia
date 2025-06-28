@@ -1,8 +1,182 @@
 @charset "UTF-08";
 
+:root {
+    --font:'Source Sans Pro', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: var(--font);
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: fixed;
+
+}
+
+.topo {
+    margin: auto;
+    max-width: 1024px;;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    font-size: 1.4em;
+    color: black;
+}
+
+.logo span{
+    color: blue;
+}
+
+.link-topo {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.link-topo a{
+    text-decoration: none;
+}
+
+/*CONTEUDO*/
+
+.conteudo {
+    width: 100%;
+    margin: auto;
+}
+
+.container-banner {
+    height: 100vh;
+    background-image: url(img/img-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-banner {
+    height: 200px;
+    padding: 20px 0;
+    background-color: #6cc099bd;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.card-banner h1 {
+    font-size: 3.5em;
+}
+.card-banner p {
+    font-size: 1.8em;
+    padding: 0 20px;
+}
+
+/*SEÇÃO*/
+
+.secao {
+    height: 60vh;
+    margin: auto;
+    max-width: 1024px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #141616;
+}
+
+.texto-secao {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.texto-secao h2 {
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.container-quartos {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    flex-grow: 1 1 300px;
+    gap: 20px;
+}
+
+.card-quartos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.card-quartos a {
+    font-size: 1.2em;
+    width: 100%;
+    padding: 20px 0;
+    text-decoration: none;
+    border-bottom: 3px solid #6cc099bd;
+    color: black;
+}
+
+.card-quartos img {
+    max-width: 300px;
+}
+
+iframe {
+    width: 100vw;
+    height: 100%;
+}
+
+/*SECAO SOBRE*/
+
+.container-cards {
+    margin: auto;
+    width: 1024px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.card-sobre {
+    max-width: 472px;
+    display: flex;
+    text-align: left;
+}
+
+.card-sobre-texto {
+    
+}
+
+.card-sobre img {
+    width: 100px;
+    height: 130px;
+}
+
+/*RODAPÉ*/
+
+.rodape {
+  background-color: #3d3d3d;
+}
