@@ -1,0 +1,81 @@
+@charset "UTF-08";
+
+:root {
+    --cor1: #00CAD1;
+    --cor2: #fff;
+    --cor3: #0000008c;
+}
+
+@media (max-width: 425px) {
+    .logo, .links-topo {
+        margin: auto;
+        text-align: center;
+    }
+    .logo img {
+        width: calc(100% / 4);
+    }
+
+    .links-topo {
+        max-width: 100%;
+        border-top: 1px solid var(--cor3);
+    }
+
+    .topo a{
+        font-size: 24px;
+    }
+
+    .container-sobre-imagem {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo, .links-topo {
+        text-align: center;
+    }
+
+    .logo img{
+        width: calc(100% / 2);
+    }
+
+    .links-topo {
+        text-align: center;
+    }
+
+    .topo a{
+        font-size: 18px;
+    }
+
+    .secao .secao-lista img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo, .links-topo {
+        margin: auto;
+    }
+    .logo img { width: calc(100% / 2); }
+    h1 { font-size: 3em; }
+    }
+
+/*
+
+    @media (max-width: 1024px) {
+    img { width: calc( 100% / 8 ); }
+    h1 { font-size: 32px; }
+    p { margin-top: 10px; }
+    }
+
+    @media (max-width: 768px) {
+    img { width: calc( 100% / 4 ); }
+    h1 { font-size: 22px; }
+    }
+
+    @media (max-width: 425px) {
+    img { width: calc( 100% / 2 ); }
+    h1 { font-size: 18px; }
+    }
+
+*/
