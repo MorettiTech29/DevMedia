@@ -20,11 +20,19 @@
         border-top: 1px solid var(--cor3);
     }
 
-    .topo a{
+    .banner h1 {font-size: 2.2em;}
+    .banner p {font-size: 1.6em;}
+
+
+    .topo a, .navegacao-especialidades{
         font-size: 24px;
     }
 
-    .container-sobre-imagem {
+    .container-lista img {
+        display: none;
+    }
+
+    .tabela img {
         display: none;
     }
 }
@@ -39,16 +47,20 @@
         width: calc(100% / 2);
     }
 
-    .links-topo {
-        text-align: center;
-    }
-
-    .topo a{
+    .topo a, .navegacao-especialidades {
         font-size: 18px;
     }
 
-    .secao .secao-lista img {
+    .secao .container-lista img {
         width: 100%;
+    }
+
+    .tabela img {
+        display: none;
+    }
+
+    table {
+        font-size: 14px;
     }
 }
 
