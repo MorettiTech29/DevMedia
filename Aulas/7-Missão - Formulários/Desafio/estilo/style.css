@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #80808029;
+    --cor2: #fff;
+    --cor3: #5d15d1;
+    --fonte: "Raleway", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte);
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    background-color: var(--cor2);
+
+    margin: auto;
+}
+
+.limita-secao {
+    max-width: 1024px;
+    width: 100%;
+
+    margin: auto;
+}
+
+.topo {
+    height: 100%;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo-topo {
+    width: 32px;
+    height: 32px;
+}
+
+.texto-logo {
+    font-size: 24px;
+    color: var(--cor3);
+    margin-left: 10px;
+}
+
+/*------------------SECAO FORMULARIO------------------*/
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    background-image: url("../imagens/bahia.jpg");
+    display: flex;
+}
+
+/*-----------------FORMULARIO------------------------*/
+.container-formulario {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.container-formulario-legenda {
+    width: 100%;
+    height: 35px;
+    background-color: var(--cor3);
+    color: var(--cor2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-formulario-legenda img {
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+
+h1 {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.formulario {
+    width: 100%;
+    background-color: var(--cor2);
+
+    padding: 30px 25px 20px 25px;
+}
+
+.formulario h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+form {
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-formulario {
+    width: 100%;
+}
+
+.campo-formulario input, .campo-formulario select {
+    width: 100%;
+    height: 32px;
+
+    margin: 10px 0;
+    padding: 0 5px;
+    
+    display: flex;
+}
+
+.campo-agrupado-formulario {
+    display: flex;
+    gap: 10px;
+}
+
+.campo-marcacao-formulario {
+    width: 120px;
+
+    display: flex;
+    align-items: center;
+}
+
+.campo-marcacao-formulario input{
+    width: 15px;
+    margin-right: 8px;
+}
+
+button {
+    background-color: var(--cor3);
+    color: var(--cor2);
+    height: 32px;
+    width: 160px;
+    font-family: var(--fonte);
+    font-size: 16px;
+    text-align: center;
+
+    margin-top: 12px;
+    border: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*--------------SEÇÃO OFERTAS--------------*/
+.container-ofertas, .container-anuncios {
+    width: 100%;
+    margin: 32px auto 0 auto;
+}
+
+.container-ofertas h2, .container-anuncios h2{
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.container-ofertas h3, .container-anuncios h3 {
+    font-size: 16px;
+    font-weight: normal;
+
+    margin-bottom: 15px;
+}
+
+.container-imagens {
+    width: 100%;
+    height: 375px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-imagem-destaque {
+    width: calc(100% - 10px);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container-imagens-agrupadas {
+    width: calc(50% - 10px);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 6px;
+}
+
+.container-imagens-legenda {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+
+    margin-left: 6px;
+    position: relative;
+}
+
+.container-imagens img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+legend {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    color: var(--cor2);
+    font-size: 17px;
+
+    padding: 5px 10px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*-----------CONTAINER-ANÚNCIOS-----------*/
+
+.container-anuncios {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.container-cards {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: calc(50% - 10px);
+    height: 100%;
+    background-color: var(--cor2);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-texto {
+    width: 100%;
+    font-size: 16px;
+
+    padding: 20px;
+}
+
+.card-texto p {
+    color: grey;
+    font-size: 14px;
+
+    margin-top: 15px;
+}
+
+/*--------------RODAPÉ-------------*/
+
+footer {
+    width: 100%;
+    background-color: var(--cor3);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 32px auto 0 auto;
+}
+
+.grupo-rodape {
+    display: flex;
+    flex-direction: column;
+
+    margin: 15px 0;
+}
+
+.grupo-rodape h4 {
+    color: var(--cor2);
+    font-size: 20px;
+
+    margin-bottom: 15px;
+}
+
+.info-rodape {
+    display: flex;
+    align-items: center;
+
+    margin: 5px 0;
+}
+
+.info-rodape img {
+    width: 18px;
+}
+
+.info-rodape span {
+    color: var(--cor2);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1100px) {
+    .limita-secao {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .limita-secao {
+        max-width: 90%;
+    }
+
+    .campo-agrupado-formulario {
+        display: inline;
+    }
+
+    .container-ofertas .container-imagens {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-imagens .container-imagens-agrupadas {
+        width: calc(100% - 10px);
+        margin: 0;
+    }
+
+    .container-imagem-destaque, .container-imagens-legenda {
+        width: 100%;
+        height: 225px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 540px){
+    .limita-secao {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .campo-agrupado-formulario {
+        display: inline;
+    }
+
+    .container-ofertas .container-imagens {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-imagens .container-imagens-agrupadas {
+        width: calc(100% - 10px);
+        margin: 0;
+    }
+
+    .container-imagem-destaque, .container-imagens-legenda {
+        width: 100%;
+        height: 225px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .container-anuncios .container-cards {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-cards .card{
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grupo-rodape {
+        width: 250px;
+    }
+}
